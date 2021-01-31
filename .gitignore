@@ -1,3 +1,35 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+
+@SanNorma
+Savinvadim1312
+/
+AirbnbClone
+1
+14
+9
+Code
+Issues
+2
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+AirbnbClone/.gitignore
+@Savinvadim1312
+Savinvadim1312 amplify init
+Latest commit 2c4eaac on 24 Dec 2020
+ History
+ 1 contributor
+75 lines (66 sloc)  1.1 KB
+AppCodeIntelliJ IDEAPhpStormWebStorm
 # OSX
 #
 .DS_Store
@@ -58,6 +90,30 @@ buck-out/
 # CocoaPods
 /ios/Pods/
 
-# Project exclude paths
-/android/
-/ios/
+#amplify
+amplify/\#current-cloud-backend
+amplify/.config/local-*
+amplify/mock-data
+amplify/backend/amplify-meta.json
+amplify/backend/awscloudformation
+build/
+dist/
+node_modules/
+aws-exports.js
+awsconfiguration.json
+amplifyconfiguration.json
+amplify-build-config.json
+amplify-gradle-config.json
+amplifytools.xcconfig
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
