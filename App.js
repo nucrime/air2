@@ -9,13 +9,14 @@
 import React from 'react';
 import {SafeAreaView, StatusBar} from 'react-native';
 import HomeScreen from './src/screens/home';
+import Post from './src/components/post';
 
 const App: () => React$Node = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
-        <HomeScreen />
+        <Post />
       </SafeAreaView>
     </>
   );
