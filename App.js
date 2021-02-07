@@ -12,6 +12,7 @@ import HomeScreen from './src/screens/home';
 import Post from './src/components/post';
 
 import feed from './assets/data/feed';
+import SearchResultPage from './src/screens/searchresults';
 
 const post1 = feed[0];
 
@@ -20,7 +21,9 @@ const App: () => React$Node = () => {
     <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
-        <Post post={post1} />
+        {/*<HomeScreen />*/}
+        {/*<Post post={post1} />*/}
+        <SearchResultPage post={post1} />
       </SafeAreaView>
     </>
   );
