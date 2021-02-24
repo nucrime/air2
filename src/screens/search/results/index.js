@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, FlatList, Pressable, ImageBackground} from 'react-native';
-import feed from '../../../assets/data/feed';
-import Post from '../../components/post';
+import feed from '../../../../assets/data/feed';
+import Post from '../../../components/post';
 // import styles from './styles';
 // import Fontisto from 'react-native-vector-icons/Fontisto';
 

@@ -1,10 +1,4 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow strict-local
- */
+
 
 import React from 'react';
 import {SafeAreaView, StatusBar} from 'react-native';
@@ -12,7 +6,8 @@ import HomeScreen from './src/screens/home';
 import Post from './src/components/post';
 
 import feed from './assets/data/feed';
-import SearchResultPage from './src/screens/searchresults';
+import SearchResultPage from './src/screens/search/results';
+import SearchDestinationPage from './src/screens/search/destination';
 
 const post1 = feed[0];
 
@@ -23,7 +18,8 @@ const App: () => React$Node = () => {
       <SafeAreaView>
         {/*<HomeScreen />*/}
         {/*<Post post={post1} />*/}
-        <SearchResultPage post={post1} />
+        {/*<SearchResultPage />*/}
+        <SearchDestinationPage />
       </SafeAreaView>
     </>
   );
