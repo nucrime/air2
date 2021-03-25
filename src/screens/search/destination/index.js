@@ -23,9 +23,9 @@ const SearchDestinationPage = (props) => {
         renderItem={({item}) => (
           <View style={styles.row}>
             <View style={styles.iconContainer}>
-              <Entypo name={"location-pin"}></Entypo>
+              <Entypo name={"location-pin"} size={30}></Entypo>
             </View>
-            <Text post={item.description}></Text>
+            <Text style={styles.locationText}>{item.description}</Text>
           </View>
         )}
       />
