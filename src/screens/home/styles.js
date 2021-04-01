@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     position: 'absolute',
-    top: '5%',
+    top: '10%',
     zIndex: 1,
   },
   searchButtonText: {
